@@ -2,10 +2,10 @@
 
 ## Grupo
 ### Integrantes
-54879- Hidalgo Alcain, Juan Manuel
-54305 - Maza, Joaquin Emiliano
-54465 - Blesi, Lucas Emiliano
-53836 - Mendez, Julieta Romina
+* 54879 - Hidalgo Alcain, Juan Manuel
+* 54305 - Maza, Joaquin Emiliano
+* 54465 - Blesi, Lucas Emiliano
+* 53836 - Mendez, Julieta Romina
 
 ### Repositorios
 * [frontend app](https://github.com/Vuadens/DSW-frontend)
@@ -28,8 +28,8 @@ las distintas actividades, asignar profesores a clases (controlando cupos), y ll
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Plan<br>2. CRUD Actividad<br>3. CRUD Material|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
+|CRUD simple|1. CRUD Socio<br>2. CRUD Actividad<br>3. CRUD Profesor<br>4. CRUD Plan|
+|CRUD dependiente|1. CRUD Clase {depende de} CRUD Profesor<br>3. CRUD Inscripción {depende de} CRUD Clase y CRUD Socio|
 |Listado<br>+<br>detalle| 1. Listado de clases filtrado por día de la semana, muestra horario y cupos disponibles => detalle muestra la actividad, el profesor a cargo y los materiales requeridos. <br> 2. Listado de socios filtrado por plan, muestra DNI, nombre y apellido => detalle muestra los datoscompletos de contacto y el estado de sus cuotas.|
 |CUU/Epic|1. Inscribir a un socio al dictado de una clase (validando cupo máximo).<br>2. Registrar el cobro de la cuota mensual de un socio.|
 
@@ -37,9 +37,8 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Turno<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Registrar una orden de mantenimiento preventivo/correctivo sobre una máquina.
-<br>2.  Asignar e inicializar el histórico de sueldo de un profesor|
+|CRUD |1. CRUD Socio<br>2. CRUD Actividad<br>3. CRUD Profesor<br>4. CRUD Plan<br>5. CRUD Clase<br>6. CRUD Inscripción<br>7. CRUD Turno<br>8. CRUD Material<br>9. CRUD Máquina<br>10. CRUD Administrador|
+|CUU/Epic|1. Inscribir a un socio al dictado de una clase (validando cupo máximo).<br>2. Registrar el cobro de la cuota mensual de un socio.<br>3. Registrar una orden de mantenimiento preventivo/correctivo sobre una máquina.<br>4.  Asignar e inicializar el histórico de sueldo de un profesor|
 
 ### Alcance Adicional Voluntario
 
