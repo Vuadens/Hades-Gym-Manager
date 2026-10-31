@@ -1,0 +1,8 @@
+[submodule "DSW-Frontend"]
+	path = DSW-Frontend
+	url = https://github.com/Vuadens/DSW-Frontend.git
+	branch = main
+[submodule "DSW-Backend"]
+	path = DSW-Backend
+	url = https://github.com/Vuadens/DSW-Backend.git
+	branch = main
