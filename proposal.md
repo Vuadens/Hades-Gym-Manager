@@ -13,6 +13,8 @@
 
 Ambos están incluidos en este repositorio como submódulos, en las carpetas `DSW-Frontend` y `DSW-Backend`.
 
+Link con video de demostración del sistema Ao Vivo:
+https://youtu.be/gEnLvgO6qoU
 
 ## Tema
 ### Descripción
