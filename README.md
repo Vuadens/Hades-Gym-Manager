@@ -1,7 +1,4 @@
 # TP DSW
-tags: #dsw #tp
-
-Status: draft
 
 ## 1. Objetivo
 
