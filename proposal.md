@@ -22,7 +22,9 @@ Sistema web para la administración centralizada de un gimnasio. Permite gestion
 las distintas actividades, asignar profesores a clases (controlando cupos), y llevar un registro del mantenimiento del equipamiento.
 
 ### Modelo
-<img width="1763" height="997" alt="MD TPI-Gimnasio" src="https://github.com/user-attachments/assets/52d98d33-294a-4609-83d3-ef545a903fce" />
+<img width="973" height="721" alt="Modelo de dominio de Hades Gym Manager" src="https://raw.githubusercontent.com/Vuadens/DSW-Backend/main/modelo-dominio.jpg" />
+
+Las diferencias entre este modelo y la implementación actual están documentadas en el [README del backend](https://github.com/Vuadens/DSW-Backend#diferencias-entre-el-modelo-de-dominio-y-el-código).
 
 
 ## Alcance Funcional 
