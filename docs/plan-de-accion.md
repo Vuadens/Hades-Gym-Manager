@@ -12,7 +12,19 @@ Este plan parte de la [auditoría técnica](auditoria-tecnica.md). Cada tarea ci
 
 ---
 
-## Decisiones que necesitamos tomar antes de empezar
+## Decisiones del equipo
+
+**Tomadas el 16/11/2026:**
+
+| # | Decisión |
+|:-:|:-|
+| D1 | **Se elimina el modo demo.** Todo pasa a funcionar contra el backend desplegado, con una base hosteada. |
+| D2 | **Cada integrante hace el refactor y el test de su propio CRUD**, para que el historial muestre el aporte de todos. |
+| D3 | **`asyncHandler` propio** (una función de pocas líneas en `utils/`). No se agregan dependencias ni se migra a Express 5: cada tecnología nueva suma documentación que hay que defender. |
+| D4 | **Un store chico de Zustand por recurso + hooks**, sin librerías nuevas. |
+| D5 | **Se borra el descuento del 15% en planes.** Era un ejemplo descartado. |
+
+Análisis que se usó para decidir:
 
 | # | Decisión | Opciones | Recomendación |
 |:-:|:-|:-|:-|
